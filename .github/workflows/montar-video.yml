@@ -1,0 +1,29 @@
+name: Montar vídeos grandes
+# Vídeos acima de 100 MB chegam em partes (videos/parts/NNN_Nome.mp4.partXX).
+# Este workflow junta as partes e publica o MP4 original como anexo de release (tag vNNN),
+# que é o link público usado pelo Metricool.
+on:
+  push:
+    paths: ['videos/parts/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Juntar partes e publicar como release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          shopt -s nullglob
+          for first in videos/parts/*.part00; do
+            name=$(basename "$first" .part00)
+            tag="v${name%%_*}"
+            if gh release view "$tag" >/dev/null 2>&1; then echo "$tag já existe"; continue; fi
+            cat videos/parts/"$name".part* > "$name"
+            ls -l "$name"
+            gh release create "$tag" "$name" --title "$name" --notes "Vídeo original, sem recomprimir, montado a partir das partes."
+          done
