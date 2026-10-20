@@ -1,0 +1,22 @@
+name: Apagar bruto temporário
+# Apaga as releases "bruto-<id>" listadas em brutos/apagar.txt (uma por linha)
+# depois que o editor já baixou o arquivo. O bruto não fica público.
+on:
+  push:
+    paths: ['brutos/apagar.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apagar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apagar releases dos brutos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          while read -r id; do
+            [ -z "$id" ] && continue
+            gh release delete "bruto-$id" --yes --cleanup-tag || echo "bruto-$id já não existe"
+          done < brutos/apagar.txt
