@@ -1,6 +1,0 @@
-numero=007
-pedido=teste B
-bruto_bytes=222
-tema=
-status=em edição
-reservado_utc=2026-10-20T02:59:29Z

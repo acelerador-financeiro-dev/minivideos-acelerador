@@ -1,6 +1,0 @@
-numero=006
-pedido=teste A
-bruto_bytes=111
-tema=
-status=em edição
-reservado_utc=2026-10-20T02:59:24Z
