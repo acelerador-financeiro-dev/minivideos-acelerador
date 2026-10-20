@@ -1,0 +1,29 @@
+name: Buscar bruto do Drive
+# Baixa um vídeo bruto público do Google Drive (link "qualquer pessoa com o link")
+# e publica como release temporária "bruto-<id>", para o editor baixar sem perda.
+# A release é apagada logo depois que o editor baixa o arquivo.
+on:
+  push:
+    paths: ['brutos/pedido.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar do Drive e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          read -r id size < brutos/pedido.txt
+          tag="bruto-$id"
+          if gh release view "$tag" >/dev/null 2>&1; then echo "$tag já existe"; exit 0; fi
+          curl -fL --retry 5 -o bruto.mp4 "https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t"
+          got=$(stat -c %s bruto.mp4)
+          echo "baixado: $got bytes (esperado $size)"
+          test "$got" = "$size"
+          sha256sum bruto.mp4
+          gh release create "$tag" bruto.mp4 --prerelease --title "$tag" --notes "Bruto temporário para edição."
