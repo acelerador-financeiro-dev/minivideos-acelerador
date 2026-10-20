@@ -4,3 +4,4 @@ bruto_bytes=67928151
 tema=Menos de R$ 2 e 2 minutos por vídeo (edição com IA)
 status=entregue
 reservado_utc=2026-10-20T14:45:22Z
+revisao=006b (margens do rosto corrigidas)
