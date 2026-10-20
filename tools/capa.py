@@ -1,5 +1,6 @@
 """Gera a capa 1080x1920 de um Reel: frame do vídeo + título grande (Anton) no topo + selo de CTA embaixo.
-Uso: python3 capa.py frame.png saida.jpg "LINHA 1|LINHA 2|..." "LINHA_DESTACADA" "COMENTA: MAPA" [y_centro_do_selo]
+Uso: python3 capa.py frame.png saida.jpg "LINHA 1|LINHA 2|..." "LINHA_DESTACADA" "COMENTA: MAPA" [y_centro_do_selo] [topo|base]
+(layout "base" quando o rosto está alto no quadro: título no peito, selo do CTA no alto, y_centro≈230)
 (o selo do CTA fica centrado em y para cobrir a legenda queimada; medir a altura da legenda no frame)
 - Título fica na faixa y≈250–700 (dentro do recorte 3:4 do grid do Instagram, acima do rosto).
 - Faixa de baixo escurecida cobre a legenda queimada; o CTA fica dentro do recorte 3:4.
@@ -30,21 +31,30 @@ def fit_font(draw, text, max_w, start, minimum=60):
     return ImageFont.truetype(ANTON, minimum)
 
 
-def main(frame, out, lines, highlight, cta, cy=1360):
+def main(frame, out, lines, highlight, cta, cy=1360, layout="topo"):
     img = Image.open(frame).convert("RGB").resize((W, H))
     dark = Image.new("RGB", (W, H), (12, 11, 12))
-    # topo: painel escuro sólido cobre os cards queimados; esmaece até o fundo, acima da cabeça
-    panel = Image.new("L", (W, 700), 0)
-    for yy in range(700):
-        a = 250 if yy < 560 else int(250 * (1 - (yy - 560) / 140))
-        ImageDraw.Draw(panel).line((0, yy, W, yy), fill=a)
-    img.paste(Image.new("RGB", (W, 700), (22, 20, 21)), (0, 0), panel)
-    # base: escurece o rodapé
-    base = gradient(620, 0, 235)
-    img.paste(dark.crop((0, 0, W, 620)), (0, H - 620), base)
+    if layout == "topo":
+        # topo: painel escuro sólido cobre os cards queimados; esmaece até o fundo, acima da cabeça
+        panel = Image.new("L", (W, 700), 0)
+        for yy in range(700):
+            a = 250 if yy < 560 else int(250 * (1 - (yy - 560) / 140))
+            ImageDraw.Draw(panel).line((0, yy, W, yy), fill=a)
+        img.paste(Image.new("RGB", (W, 700), (22, 20, 21)), (0, 0), panel)
+        base = gradient(620, 0, 235)
+        img.paste(dark.crop((0, 0, W, 620)), (0, H - 620), base)
+    else:
+        # base: rosto alto no quadro -> título vai no peito, sobre um painel escuro que cobre legenda e selos queimados
+        panel = Image.new("L", (W, 820), 0)
+        for yy in range(820):
+            a = int(248 * yy / 120) if yy < 120 else 248
+            ImageDraw.Draw(panel).line((0, yy, W, yy), fill=a)
+        img.paste(Image.new("RGB", (W, 820), (22, 20, 21)), (0, H - 820), panel)
+        top = gradient(360, 200, 0)
+        img.paste(dark.crop((0, 0, W, 360)), (0, 0), top)
 
     d = ImageDraw.Draw(img)
-    y = 250
+    y = 250 if layout == "topo" else 1230
     for i, line in enumerate(lines):
         start = 150 if i == 0 else 100
         f = fit_font(d, line, W - 140, start)
@@ -75,9 +85,9 @@ def main(frame, out, lines, highlight, cta, cy=1360):
         d.text(((W - tw) / 2, cy - (bb[1] + bb[3]) / 2), cta, font=f, fill=INK)
         tag = "ACELERADOR FINANCEIRO"
         ft = ImageFont.truetype(ANTON, 44)
-        d.text(((W - d.textlength(tag, font=ft)) / 2, cy + 110), tag, font=ft, fill=(240, 240, 244))
+        d.text(((W - d.textlength(tag, font=ft)) / 2, cy + 110 if layout == "topo" else cy - 150), tag, font=ft, fill=(240, 240, 244))
     img.save(out, "JPEG", quality=92)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2], sys.argv[3].split("|"), sys.argv[4], sys.argv[5], int(sys.argv[6]) if len(sys.argv) > 6 else 1360)
+    main(sys.argv[1], sys.argv[2], sys.argv[3].split("|"), sys.argv[4], sys.argv[5], int(sys.argv[6]) if len(sys.argv) > 6 else 1360, sys.argv[7] if len(sys.argv) > 7 else "topo")
