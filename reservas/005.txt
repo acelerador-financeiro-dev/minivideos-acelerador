@@ -1,0 +1,5 @@
+numero=005
+pedido=2026-10-19
+bruto_bytes=803832649
+tema=Vender ilusão compensa no Brasil?
+status=entregue

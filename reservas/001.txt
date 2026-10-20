@@ -1,0 +1,5 @@
+numero=001
+pedido=2026-10-15
+bruto_bytes=-
+tema=Joguei meus investimentos no Claude e levei um susto
+status=entregue

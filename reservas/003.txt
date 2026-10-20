@@ -1,0 +1,5 @@
+numero=003
+pedido=2026-10-16
+bruto_bytes=-
+tema=13 ou 22? A economia que importa é a do seu bolso
+status=entregue

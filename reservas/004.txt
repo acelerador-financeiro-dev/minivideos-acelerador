@@ -1,0 +1,5 @@
+numero=004
+pedido=2026-10-19 22:46
+bruto_bytes=71723102
+tema=Quem não derruba seu resultado tenta derrubar seu nome
+status=entregue
