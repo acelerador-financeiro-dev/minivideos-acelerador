@@ -4,4 +4,4 @@ bruto_bytes=634743569
 tema=Minha loja pegou fogo ontem (desabafo, modelo Reflexão)
 status=entregue
 reservado_utc=2026-10-21T13:57:04Z
-revisao=008b (vídeo do incêndio na abertura e foto da cozinha)
+revisao=008b (página, máxima qualidade) + 008c (Metricool, abaixo de 200 MB)
