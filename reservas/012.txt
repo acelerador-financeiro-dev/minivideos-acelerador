@@ -1,6 +1,6 @@
 numero=012
 pedido=2026-10-22 19:43
 bruto_bytes=850575132
-tema=
-status=em edição
+tema=Brasil bombando? Notícia boa, comentários e mente cauterizada (padrão viral, prints)
+status=entregue
 reservado_utc=2026-10-22T22:50:55Z
