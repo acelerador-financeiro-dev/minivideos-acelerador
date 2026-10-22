@@ -24,6 +24,7 @@ jobs:
           curl -fL --retry 5 -o bruto.mp4 "https://drive.usercontent.google.com/download?id=$id&export=download&confirm=t"
           got=$(stat -c %s bruto.mp4)
           echo "baixado: $got bytes (esperado $size)"
+          if head -c 200 bruto.mp4 | grep -qi "<html"; then echo "Drive devolveu página de login: o arquivo não está como qualquer pessoa com o link"; exit 1; fi
           if [ "${size:-0}" != "0" ]; then test "$got" = "$size"; fi
           sha256sum bruto.mp4
           gh release create "$tag" bruto.mp4 --prerelease --title "$tag" --notes "Bruto temporário para edição."
