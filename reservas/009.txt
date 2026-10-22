@@ -4,3 +4,4 @@ bruto_bytes=840475381
 tema=12 promessas financeiras da Bíblia (modelo Reflexão)
 status=entregue
 reservado_utc=2026-10-22T15:41:50Z
+revisao=009b (selo Promessa N de 12, números 10-12 na legenda)
