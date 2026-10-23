@@ -1,0 +1,6 @@
+numero=K003
+perfil=@karam.cesar
+pedido=2026-10-22 22:27
+origem=009b (início novo regravado, outros cortes, zoom 1,06, 1,1x, legenda em caixa alta, selo turquesa no alto)
+tema=Deus vai encher seu bolso: 12 promessas (versão @karam.cesar)
+status=entregue
