@@ -1,0 +1,6 @@
+numero=K001
+perfil=@karam.cesar
+pedido=2026-10-22 22:26
+bruto_bytes=47390245
+tema=Brasil bombando? (versão @karam.cesar do #012, início novo)
+status=entregue
