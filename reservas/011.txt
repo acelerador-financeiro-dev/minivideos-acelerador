@@ -5,4 +5,4 @@ tema=Lula ou Bolsonaro? Nenhum vai te salvar (modelo Reflexão)
 status=entregue
 reservado_utc=2026-10-22T16:17:08Z
 revisao=011c (sem o trecho "no caso dos dois... corrupção", acelerado 1,5x, 1:50)
-variacao=011k (@karam.cesar: gancho novo "Farinhas do mesmo saco", sem "Maldito homem...", 1,5x, 1:52)
+variacao=K002 (@karam.cesar)

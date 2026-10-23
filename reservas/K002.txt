@@ -1,5 +1,6 @@
 numero=K002
-origem=011c (variação @karam.cesar)
-tema=Farinha do mesmo saco: Lula e Bolsonaro (gancho novo)
-status=em edição
-reservado_utc=2026-10-23T01:55:39Z
+perfil=@karam.cesar
+pedido=2026-10-22 22:28
+origem=011c (gancho novo "Farinhas do mesmo saco", sem "Maldito homem...", 1,5x)
+tema=Farinha do mesmo saco: Lula e Bolsonaro
+status=entregue
