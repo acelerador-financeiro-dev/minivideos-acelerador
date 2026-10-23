@@ -83,9 +83,9 @@ def main(frame, out, lines, highlight, cta, cy=1360, layout="topo"):
         d.rounded_rectangle((x0, cy - 70, x0 + bw, cy + 70), radius=70, fill=TURQ)
         bb = d.textbbox((0, 0), cta, font=f)
         d.text(((W - tw) / 2, cy - (bb[1] + bb[3]) / 2), cta, font=f, fill=INK)
-        tag = "ACELERADOR FINANCEIRO"
+        tag = __import__("os").environ.get("CAPA_TAG", "ACELERADOR FINANCEIRO")  # CAPA_TAG="" no @karam.cesar
         ft = ImageFont.truetype(ANTON, 44)
-        d.text(((W - d.textlength(tag, font=ft)) / 2, cy + 110 if layout == "topo" else cy - 150), tag, font=ft, fill=(240, 240, 244))
+        if tag: d.text(((W - d.textlength(tag, font=ft)) / 2, cy + 110 if layout == "topo" else cy - 150), tag, font=ft, fill=(240, 240, 244))
     img.save(out, "JPEG", quality=92)
 
 
