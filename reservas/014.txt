@@ -1,0 +1,6 @@
+numero=014
+pedido=2026-10-26 19:55
+bruto_bytes=842751743
+tema=
+status=em edição
+reservado_utc=2026-10-26T22:57:13Z
