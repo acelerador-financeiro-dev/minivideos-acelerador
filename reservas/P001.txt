@@ -1,7 +1,7 @@
 numero=P001
 pedido=2026-10-28 14:44
 bruto_bytes=598873024
-tema=
+tema=3 sinais de golpe de investimento (retorno garantido)
 modo=sem edição (só postar)
-status=postando
+status=agendado 2026-10-28 15:24 (Metricool 409266952; IG Reels, YT Short, TikTok)
 reservado_utc=2026-10-28T17:50:16Z
