@@ -1,7 +1,7 @@
 numero=P002
 pedido=2026-10-28 15:46
 bruto_bytes=130988804
-tema=Desespero por dinheiro e golpes (Serasa, CVM/Anbima)
+tema=Metade dos brasileiros já caiu em golpe (Serasa, CVM/Anbima)
 modo=sem edição (só postar)
-status=agendado 2026-10-28 18:00 (Metricool 409334219; IG Reels, YT Short, TikTok)
+status=18h de 28/10 postado cru (Metricool 409334219, apagar); refeito como P002b (vP002b) e agendado 29/10 07:00 (Metricool 409487079; IG Reels, YT Short, TikTok)
 reservado_utc=2026-10-28T19:16:30Z
