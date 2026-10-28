@@ -1,0 +1,7 @@
+numero=P002
+pedido=2026-10-28 15:46
+bruto_bytes=130988804
+tema=
+modo=sem edição (só postar)
+status=postando (agendar 18:00)
+reservado_utc=2026-10-28T19:16:30Z
