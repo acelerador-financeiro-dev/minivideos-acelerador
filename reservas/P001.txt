@@ -1,0 +1,7 @@
+numero=P001
+pedido=2026-10-28 14:44
+bruto_bytes=598873024
+tema=
+modo=sem edição (só postar)
+status=postando
+reservado_utc=2026-10-28T17:50:16Z
