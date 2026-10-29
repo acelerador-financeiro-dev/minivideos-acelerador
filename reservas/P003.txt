@@ -1,0 +1,7 @@
+numero=P003
+pedido=2026-10-28 21:46
+bruto_bytes=744038796
+tema=
+modo=sem edição (só postar)
+status=em andamento
+reservado_utc=2026-10-29T00:55:59Z
