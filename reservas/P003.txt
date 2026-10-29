@@ -3,5 +3,5 @@ pedido=2026-10-28 21:46
 bruto_bytes=744038796
 tema=Seguir o Pablo Marçal me fez tomar ferro (discurso de coach x risco nos negócios)
 modo=sem edição (só postar)
-status=agendado 29/10 11:00 (Metricool 409591457; IG Reels, YT Short, TikTok) — vP003, 1080p HDR 155,6 MB
+status=agendado 29/10 17:00 (Metricool 409602211, movido das 11h; IG Reels, YT Short, TikTok) — vP003, 1080p HDR 155,6 MB
 reservado_utc=2026-10-29T00:55:59Z
