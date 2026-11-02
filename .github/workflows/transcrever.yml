@@ -1,0 +1,31 @@
+name: Transcrever áudio
+# Transcreve transcrever/*.wav com faster-whisper e grava transcrever/<nome>.txt
+on:
+  push:
+    paths: ['transcrever/*.wav']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q faster-whisper
+      - name: Transcrever
+        run: |
+          for f in transcrever/*.wav; do
+            out="${f%.wav}.txt"; [ -f "$out" ] && continue
+            python3 - "$f" "$out" <<'PY'
+          import sys
+          from faster_whisper import WhisperModel
+          m = WhisperModel('medium', device='cpu', compute_type='int8')
+          segs, _ = m.transcribe(sys.argv[1], language='pt', vad_filter=True)
+          with open(sys.argv[2], 'w') as o:
+              for s in segs:
+                  o.write(f"[{s.start:.1f}-{s.end:.1f}] {s.text.strip()}\n")
+          PY
+            git rm -q "$f"
+            git add "$out"
+          done
+          git -c user.name=Claude -c user.email=noreply@anthropic.com commit -m "Transcrição" && git push
