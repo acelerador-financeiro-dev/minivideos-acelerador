@@ -20,10 +20,11 @@ jobs:
           for f in transcrever/*.wav; do
             out="${f%.wav}.txt"; [ -f "$out" ] && continue
             python3 - "$f" "$out" <<'PY'
-          import sys
+          import sys, wave, numpy as np
           from faster_whisper import WhisperModel
           m = WhisperModel('medium', device='cpu', compute_type='int8')
-          segs, _ = m.transcribe(sys.argv[1], language='pt', vad_filter=True)
+          w = wave.open(sys.argv[1]); a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+          segs, _ = m.transcribe(a, language='pt', vad_filter=True)
           with open(sys.argv[2], 'w') as o:
               for s in segs:
                   o.write(f"[{s.start:.1f}-{s.end:.1f}] {s.text.strip()}\n")
