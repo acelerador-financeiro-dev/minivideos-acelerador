@@ -1,0 +1,7 @@
+numero=P004
+pedido=2026-11-02 11:26
+bruto_bytes=583338215
+tema=
+modo=sem edição (só postar agora)
+status=buscando bruto
+reservado_utc=2026-11-02T14:51:16Z
