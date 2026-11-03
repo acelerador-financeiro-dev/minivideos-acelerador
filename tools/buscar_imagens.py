@@ -6,7 +6,8 @@ Pedido: imagens/pedidos/NNN.txt, uma linha por imagem:
     nome<TAB>url:https://...                    -> baixa direto (nome_a.jpg)
 Linhas vazias e com # sao ignoradas.
 
-Bancos, em ordem: Pexels (se PEXELS_KEY), Unsplash (se UNSPLASH_KEY), Openverse e Wikimedia Commons (sem chave).
+    nome<TAB>arte:termos                         -> obra/ilustracao antiga (Wikimedia Commons, depois Openverse)
+Fotos: Pexels (se PEXELS_KEY), Unsplash (se UNSPLASH_KEY), depois Openverse (sem chave, qualidade fraca).
 Saida: imagens/NNN/*.jpg (lado maior 1400), imagens/NNN/creditos.tsv, imagens/NNN/falhas.txt, imagens/NNN/.ok
 """
 import io, json, os, sys, time, urllib.parse, urllib.request
@@ -28,7 +29,7 @@ def pexels(q):
     k = os.environ.get("PEXELS_KEY")
     if not k:
         return []
-    d = get("https://api.pexels.com/v1/search?" + urllib.parse.urlencode({"query": q, "per_page": OPCOES + 2}),
+    d = get("https://api.pexels.com/v1/search?" + urllib.parse.urlencode({"query": q, "per_page": OPCOES + 2, "orientation": "landscape"}),
             {"Authorization": k})
     return [(p["src"]["large2x"], "Pexels", p.get("photographer", ""), "Pexels License", p["url"]) for p in d.get("photos", [])]
 
@@ -37,7 +38,7 @@ def unsplash(q):
     k = os.environ.get("UNSPLASH_KEY")
     if not k:
         return []
-    d = get("https://api.unsplash.com/search/photos?" + urllib.parse.urlencode({"query": q, "per_page": OPCOES + 2}),
+    d = get("https://api.unsplash.com/search/photos?" + urllib.parse.urlencode({"query": q, "per_page": OPCOES + 2, "orientation": "landscape", "content_filter": "high"}),
             {"Authorization": "Client-ID " + k})
     return [(p["urls"]["regular"], "Unsplash", p["user"]["name"], "Unsplash License", p["links"]["html"]) for p in d.get("results", [])]
 
@@ -92,7 +93,12 @@ def main():
                 cands = [(q[4:], "direto", "", "", q[4:])]
             else:
                 cands = []
-                for f in (pexels, unsplash, openverse, commons):
+                # "arte: ..." = obra/ilustracao antiga (Wikimedia primeiro); o resto = foto (Pexels, Unsplash, Openverse)
+                if q.startswith("arte:"):
+                    q = q[5:].strip(); bancos = (commons, openverse)
+                else:
+                    bancos = (pexels, unsplash, openverse)
+                for f in bancos:
                     try:
                         cands += f(q)
                     except Exception as e:
