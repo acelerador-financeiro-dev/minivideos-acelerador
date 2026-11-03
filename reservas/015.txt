@@ -1,6 +1,7 @@
 numero=015
 pedido=2026-10-28 15:15
 bruto_bytes=1196954706
-tema=
+tema=Ir embora do Brasil vai resolver? (#015 refeito como #015b no modelo Imagens)
 status=em edição
 reservado_utc=2026-10-28T18:49:25Z
+versao_b=015b modelo Imagens (03/11/2026)
