@@ -20,7 +20,7 @@ OPCOES = int(os.environ.get("OPCOES", "3"))
 def get(url, headers=None, raw=False):
     h = {"User-Agent": UA}
     h.update(headers or {})
-    with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=60) as r:
+    with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=25) as r:
         data = r.read()
     return data if raw else json.loads(data)
 
@@ -87,6 +87,8 @@ def salvar(url, destino):
 
 
 def main():
+    if not os.path.isdir("imagens/pedidos"):
+        return
     for ped in sorted(os.listdir("imagens/pedidos")):
         if not ped.endswith(".txt"):
             continue
@@ -116,7 +118,7 @@ def main():
                         cands += f(q)
                     except Exception as e:
                         print(f"[{nome}] {f.__name__}: {e}")
-                    if len(cands) >= OPCOES * 2:
+                    if len(cands) >= OPCOES:
                         break
             ok = 0
             for url, banco, autor, lic, pagina in cands:

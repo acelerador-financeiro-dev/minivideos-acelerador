@@ -72,3 +72,4 @@ chegada	airport arrivals people
 viajante	happy traveler airport
 triste	sad man with suitcase
 estrada	empty road ahead
+# refazer
