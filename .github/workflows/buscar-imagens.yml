@@ -1,0 +1,29 @@
+name: Buscar imagens
+# Modelo Imagens: busca nos bancos (Pexels/Unsplash se houver chave, Openverse e Wikimedia sem chave)
+# e baixa as opções de cada imagem pedida em imagens/pedidos/NNN.txt para imagens/NNN/.
+on:
+  push:
+    paths: ['imagens/pedidos/*.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: buscar-imagens
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Buscar e baixar
+        env:
+          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+          UNSPLASH_KEY: ${{ secrets.UNSPLASH_KEY }}
+        run: |
+          pip install -q pillow
+          python3 tools/buscar_imagens.py
+      - name: Gravar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add imagens
+          git commit -q -m "imagens baixadas" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
