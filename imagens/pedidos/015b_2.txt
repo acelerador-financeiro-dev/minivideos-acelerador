@@ -1,0 +1,3 @@
+cubiculo	small studio apartment interior
+balanca	comparing price tags
+sofa	man watching tv remote couch
