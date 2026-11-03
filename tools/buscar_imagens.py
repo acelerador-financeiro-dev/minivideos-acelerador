@@ -7,7 +7,7 @@ Pedido: imagens/pedidos/NNN.txt, uma linha por imagem:
 Linhas vazias e com # sao ignoradas.
 
     nome<TAB>arte:termos                         -> obra/ilustracao antiga (Wikimedia Commons, depois Openverse)
-Fotos: Pexels (se PEXELS_KEY), Unsplash (se UNSPLASH_KEY), depois Openverse (sem chave, qualidade fraca).
+Fotos: Pexels (se PEXELS_KEY), Pixabay (se PIXABAY_KEY), Unsplash (se UNSPLASH_KEY), depois Openverse (sem chave, qualidade fraca).
 Saida: imagens/NNN/*.jpg (lado maior 1400), imagens/NNN/creditos.tsv, imagens/NNN/falhas.txt, imagens/NNN/.ok
 """
 import io, json, os, sys, time, urllib.parse, urllib.request
@@ -32,6 +32,19 @@ def pexels(q):
     d = get("https://api.pexels.com/v1/search?" + urllib.parse.urlencode({"query": q, "per_page": OPCOES + 2, "orientation": "landscape"}),
             {"Authorization": k})
     return [(p["src"]["large2x"], "Pexels", p.get("photographer", ""), "Pexels License", p["url"]) for p in d.get("photos", [])]
+
+
+def pixabay(q, tipo="photo"):
+    k = os.environ.get("PIXABAY_KEY")
+    if not k:
+        return []
+    d = get("https://pixabay.com/api/?" + urllib.parse.urlencode({"key": k, "q": q[:100], "image_type": tipo,
+            "orientation": "horizontal", "safesearch": "true", "per_page": max(3, OPCOES + 2)}))
+    return [(h["largeImageURL"], "Pixabay", h.get("user", ""), "Pixabay Content License", h["pageURL"]) for h in d.get("hits", [])]
+
+
+def pixabay_ilustra(q):
+    return pixabay(q, "illustration")
 
 
 def unsplash(q):
@@ -95,9 +108,9 @@ def main():
                 cands = []
                 # "arte: ..." = obra/ilustracao antiga (Wikimedia primeiro); o resto = foto (Pexels, Unsplash, Openverse)
                 if q.startswith("arte:"):
-                    q = q[5:].strip(); bancos = (commons, openverse)
+                    q = q[5:].strip(); bancos = (commons, pixabay_ilustra, openverse)
                 else:
-                    bancos = (pexels, unsplash, openverse)
+                    bancos = (pexels, pixabay, unsplash, openverse)
                 for f in bancos:
                     try:
                         cands += f(q)

@@ -22,6 +22,7 @@ jobs:
       - name: Buscar e baixar
         env:
           PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           UNSPLASH_KEY: ${{ secrets.UNSPLASH_KEY }}
         run: |
           pip install -q pillow
