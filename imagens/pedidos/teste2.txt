@@ -1,5 +1,0 @@
-cartao	credit card bills debt
-carteira	empty wallet
-aposentado	elderly man worried bills
-bolsa	stock market chart screen
-mercado	supermarket shopping cart prices
