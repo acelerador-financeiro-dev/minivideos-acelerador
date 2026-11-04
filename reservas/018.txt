@@ -1,6 +1,6 @@
 numero=018
 pedido=2026-11-04 13:35
 bruto_bytes=460437142
-tema=
-status=em edição
+tema=Ensinando cartão de crédito pro neném de 3 anos (edição simples, frase C 10 s)
+status=agendado 2026-11-04 16:45 (Metricool uuid 669257192406009118)
 reservado_utc=2026-11-04T16:56:33Z
