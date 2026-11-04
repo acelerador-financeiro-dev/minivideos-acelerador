@@ -28,10 +28,11 @@ P = json.load(open(f"{S}/plano.json"))
 # ---------------- tempo ----------------
 Wd = json.load(open(f"{S}/raw/words.json"))
 CUT = json.load(open(f"{S}/raw/cuts.json")); SEGS = CUT["segs"]; KEEP = CUT["keep"]
-DUR = SEGS[-1]["out0"] + SEGS[-1]["in1"] - SEGS[-1]["in0"]
+K = CUT.get("k", 1.0); SDR = P.get("sdr", False)
+DUR = SEGS[-1]["out0"] + (SEGS[-1]["in1"] - SEGS[-1]["in0"]) / K
 def m(t):
     for s in SEGS:
-        if s["in0"] - 1e-6 <= t <= s["in1"] + 1e-6: return s["out0"] + t - s["in0"]
+        if s["in0"] - 1e-6 <= t <= s["in1"] + 1e-6: return s["out0"] + (t - s["in0"]) / K
     for s in SEGS:
         if t < s["in0"]: return s["out0"]
     return DUR
@@ -92,7 +93,9 @@ a_, b_, c_ = 0.17883277, 0.28466892, 0.55991073
 def hlg(E_):
     E_ = np.clip(E_, 0, 1)
     return np.where(E_ <= 1 / 12, np.sqrt(3 * E_), a_ * np.log(np.maximum(12 * E_ - b_, 1e-6)) + c_)
-def to_hlg(rgb8): return (hlg(lin[rgb8] @ M.T * 0.2647) * 65535).astype(np.float32)
+def to_hlg(rgb8):
+    if SDR: return rgb8.astype(np.float32) * 257
+    return (hlg(lin[rgb8] @ M.T * 0.2647) * 65535).astype(np.float32)
 
 class Layer:
     """Gráfico pré-convertido para HLG: posição, cor HLG e alfa (calculados uma vez)."""
@@ -205,18 +208,21 @@ def frame_hdr(fr, n):
     if ci is not None: draw_rgba(fr, ci[0], int(540 - ci[0].width / 2), ci[1])
     return np.clip(fr + 0.5, 0, 65535).astype(np.uint16)
 
-BASE = f"{S}/raw/base_hdr.mp4"; AUD = f"{S}/raw/mix.m4a" if os.path.exists(f"{S}/raw/mix.m4a") else BASE
+BASE = f"{S}/raw/base.mkv" if SDR else f"{S}/raw/base_hdr.mp4"; AUD = f"{S}/raw/mix.m4a" if os.path.exists(f"{S}/raw/mix.m4a") else BASE
 def reader(ss=None, dur=None):
     cmd = ["ffmpeg", "-v", "error"] + (["-ss", f"{ss:.3f}"] if ss is not None else []) + ["-i", BASE] + (["-t", f"{dur:.3f}"] if dur else []) + \
-        ["-vf", "scale=in_color_matrix=bt2020:in_range=tv,format=rgb48le", "-f", "rawvideo", "-pix_fmt", "rgb48le", "-"]
+        ["-vf", ("scale=in_color_matrix=bt709:in_range=tv,format=rgb48le" if SDR else "scale=in_color_matrix=bt2020:in_range=tv,format=rgb48le"), "-f", "rawvideo", "-pix_fmt", "rgb48le", "-"]
     return subprocess.Popen(cmd, stdout=subprocess.PIPE)
+VOUT_HDR = ["-vf", "scale=out_color_matrix=bt2020:out_range=tv,format=yuv420p10le", "-c:v", "libx265", "-preset", "fast", "-crf", "21", "-tag:v", "hvc1",
+         "-x265-params", "log-level=error:colorprim=bt2020:transfer=arib-std-b67:colormatrix=bt2020nc:range=limited:vbv-maxrate=8000:vbv-bufsize=16000",
+         "-colorspace", "bt2020nc", "-color_primaries", "bt2020", "-color_trc", "arib-std-b67"]
+VOUT_SDR = ["-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p", "-c:v", "libx265", "-preset", os.environ.get("XPRESET", "fast"), "-crf", os.environ.get("XCRF", "20"), "-tag:v", "hvc1",
+         "-x265-params", "log-level=error:colorprim=bt709:transfer=bt709:colormatrix=bt709:range=limited:vbv-maxrate=9000:vbv-bufsize=18000",
+         "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709"]
 def writer(out, ss=None, dur=None, crf="21"):
     aud = (["-ss", f"{ss:.3f}"] if ss is not None else []) + ["-i", AUD] + (["-t", f"{dur:.3f}"] if dur else [])
     return subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb48le", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"] + aud +
-        ["-map", "0:v", "-map", "1:a", "-vf", "scale=out_color_matrix=bt2020:out_range=tv,format=yuv420p10le",
-         "-c:v", "libx265", "-preset", "fast", "-crf", crf, "-tag:v", "hvc1",
-         "-x265-params", "log-level=error:colorprim=bt2020:transfer=arib-std-b67:colormatrix=bt2020nc:range=limited:vbv-maxrate=8000:vbv-bufsize=16000",
-         "-colorspace", "bt2020nc", "-color_primaries", "bt2020", "-color_trc", "arib-std-b67",
+        ["-map", "0:v", "-map", "1:a"] + (VOUT_SDR if SDR else VOUT_HDR) + [
          "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
 def run(out, ss=None, dur=None, only=None):
     rd = reader(ss, dur); wr = writer(out, ss, dur) if out else None
@@ -232,6 +238,7 @@ def run(out, ss=None, dur=None, only=None):
     if wr: wr.stdin.close(); wr.wait()
     print("DONE", n, flush=True)
 def hlg_to_srgb(o):
+    if SDR: return (o.astype(np.float32) / 257).clip(0, 255).astype(np.uint8)
     E_ = o.astype(np.float32) / 65535
     L = np.where(E_ <= 0.5, E_ ** 2 / 3, (np.exp((E_ - c_) / a_) + b_) / 12) / 0.2647
     L = np.clip(L @ np.linalg.inv(M).T, 0, 1)

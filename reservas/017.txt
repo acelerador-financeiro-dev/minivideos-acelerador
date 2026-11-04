@@ -1,6 +1,6 @@
 numero=017
 pedido=2026-11-03 22:38
 bruto_bytes=197893637
-tema=
+tema=Torcendo pro Lula dar errado? (modelo Imagens, 1,2x)
 status=em edição
 reservado_utc=2026-11-04T11:07:37Z
