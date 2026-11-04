@@ -4,3 +4,4 @@ bruto_bytes=197893637
 tema=Torcendo pro Lula dar errado? (modelo Imagens, 1,2x)
 status=entregue
 reservado_utc=2026-11-04T11:07:37Z
+status=agendado 04/11 11:10 (v017b, Metricool uuid -5401970602225218990)
