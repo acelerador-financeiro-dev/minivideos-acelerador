@@ -1,6 +1,6 @@
 numero=022
 pedido=2026-11-06 19:35
 bruto_bytes=146298158
-tema=
-status=em edição
+tema=Presidente do Paraguai sofreu impeachment (modelo Imagens)
+status=entregue
 reservado_utc=2026-11-06T22:36:47Z
