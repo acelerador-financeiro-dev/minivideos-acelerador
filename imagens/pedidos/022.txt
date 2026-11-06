@@ -1,0 +1,17 @@
+paraguai	asuncion paraguay city
+senado	parliament chamber session
+votacao	hands raised voting assembly
+banco_fechado	closed bank door
+fila_banco	people waiting queue bank
+protesto	protest crowd street flags
+bancocentral	bank building columns facade
+executivo	businessman suit walking
+cadeado	padlock chain
+predio_banco	bank building glass city
+ovos	eggs in one basket
+armadilha	mouse trap cheese
+bolsa	stock market screen
+assinatura	signing document pen
+marionete	puppet strings hands
+queda	falling dominoes
+servidor	elderly man retirement documents
