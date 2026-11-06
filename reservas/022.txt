@@ -3,4 +3,5 @@ pedido=2026-11-06 19:35
 bruto_bytes=146298158
 tema=Presidente do Paraguai sofreu impeachment (modelo Imagens)
 status=entregue
+agendado=2026-11-06 20:30 metricool 419517098
 reservado_utc=2026-11-06T22:36:47Z
