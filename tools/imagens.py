@@ -74,7 +74,7 @@ def hair_min(t0, t1):
     c = [y - 0.24 * h for t, x, y, w, h in FACES if x is not None and y > 500 and t0 - 0.1 <= t <= t1 + 0.1]
     return min(c) if c else H
 # legenda no peito; quando ele se inclina, desce junto (até 1560, acima do rodapé do Reels)
-GY = {gi: int(clamp(chin_max(cap[g[0]]["s"], cap[g[-1]]["e"] + 0.6) - 10, CAPY, 1560)) for gi, g in enumerate(groups)}
+GY = {gi: (CAPY if P.get("cap_fixed") else int(clamp(chin_max(cap[g[0]]["s"], cap[g[-1]]["e"] + 0.6) - 10, CAPY, 1560))) for gi, g in enumerate(groups)}
 def caption_at(t):
     for gi, g in enumerate(groups):
         s = cap[g[0]]["s"]; nxt = cap[groups[gi + 1][0]]["s"] if gi + 1 < len(groups) else DUR
@@ -124,7 +124,10 @@ def draw_rgba(fr, im, x, y):
     fr[Y:Y + hh, X:X + ww] = fr[Y:Y + hh, X:X + ww] * (1 - al) + to_hlg(sub[..., :3]) * al
 
 # ---------------- janela de imagens ----------------
-WX, WY, WW, WH = P["win"]; RAD = 28; SHB = 24; PAD = SHB * 2
+WX, WY, WW, WH = P["win"]
+# margem do iPhone (#021): o Instagram corta ~100 px de cada lado em tela alta; janela no máximo 760 de largura (x 160–920)
+if WW > 760: WH = int(WH * 760 / WW); WW = 760
+RAD = 28; SHB = 24; PAD = SHB * 2
 def window_img(path, fy=0.5, WW=WW, WH=WH):
     src = Image.open(path).convert("RGB")
     r = max(WW / src.width, WH / src.height)
@@ -156,7 +159,7 @@ def win_layer(k):
     return _wl[k]
 def win_at(t):
     for k, (t0, t1, *_r) in enumerate(SHOW):
-        if t0 <= t < t1: return k
+        if t0 <= t < t1: return k if SHOW[k][2] else None
     return None
 
 # ---------------- frase de abertura (faixa branca do Instagram, regra 19) ----------------
@@ -262,7 +265,8 @@ elif MODE == "faces":
         if AB_L is not None and t < AB_END and AB_L.y + AB_L.rgb.shape[0] > hair: bad.append((t, "abertura", int(hair)))
         if CTA_L is not None and t >= CTA_T and CTA_L.y + CTA_L.rgb.shape[0] > hair: bad.append((t, "cta", int(hair)))
         ci = caption_at(t)
-        if ci is not None and ci[1] + 18 < chin: bad.append((t, "legenda", int(chin)))
+        if ci is not None and not P.get("cap_fixed") and ci[1] + 18 < chin: bad.append((t, "legenda", int(chin)))
+        if ci is not None and P.get("cap_fixed") and ci[1] + ci[0].height - 8 > hair: bad.append((t, "legenda-topo", int(hair)))
     print("SEM CONFLITOS" if not bad else bad[:40], len(bad))
 elif MODE == "preview":
     run(ARGS[0], float(ARGS[1]), float(ARGS[2]))
