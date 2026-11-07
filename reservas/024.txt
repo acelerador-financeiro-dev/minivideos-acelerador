@@ -1,6 +1,7 @@
 numero=024
 pedido=2026-11-07 18:30
 bruto_bytes=162325900
-tema=
-status=em edição
+tema=STF derrubou idade mínima da aposentadoria especial, mas nem tudo são flores (modelo Imagens)
+status=entregue
+agendado=2026-11-07 19:21 metricool 420297869
 reservado_utc=2026-11-07T21:55:18Z
