@@ -1,6 +1,7 @@
 numero=023
 pedido=2026-11-07 17:49
 bruto_bytes=156829052
-tema=
-status=em edição
+tema=Vale-refeição mudou, mas seu vale não é salário (modelo Imagens)
+status=entregue
+agendado=2026-11-07 18:33 metricool 420271067
 reservado_utc=2026-11-07T20:50:29Z
