@@ -1,4 +1,6 @@
-"""Gera a capa 1080x1920 de um Reel: frame do vídeo + título grande (Anton) no topo + selo de CTA embaixo.
+"""REGRA DO CÉSAR (07/11/2026): capa NUNCA leva "segue o perfil" nem CTA, e nada pode ficar em cima do rosto.
+O argumento de CTA é ignorado; só o título vai na capa, acima da cabeça.
+Gera a capa 1080x1920 de um Reel: frame do vídeo + título grande (Anton) no topo + selo de CTA embaixo.
 Uso: python3 capa.py frame.png saida.jpg "LINHA 1|LINHA 2|..." "LINHA_DESTACADA" "COMENTA: MAPA" [y_centro_do_selo] [topo|base]
 (layout "base" quando o rosto está alto no quadro: título no peito, selo do CTA no alto, y_centro≈230)
 (o selo do CTA fica centrado em y para cobrir a legenda queimada; medir a altura da legenda no frame)
@@ -74,7 +76,7 @@ def main(frame, out, lines, highlight, cta, cy=1360, layout="topo"):
             d.text((x, y), line, font=f, fill=(255, 255, 255))
         y = bbox[3] + (34 if highlight and highlight in line else 22)
 
-    if cta:
+    if False:  # CTA na capa proibido (07/11/2026)
         # selo do CTA em cima da legenda queimada (faixa do peito, y≈1300–1430)
         f = ImageFont.truetype(ANTON, 76)
         tw = d.textlength(cta, font=f)
