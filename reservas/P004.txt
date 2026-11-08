@@ -4,4 +4,5 @@ bruto_bytes=583338215
 tema=Nem Lula nem Bolsonaro: fé em Deus e no trabalho, não em político
 modo=sem edição (só postar agora)
 status=agendado 2026-11-02 12:37 (Metricool 414132605; IG Reels, YT Short, TikTok) — vP004, 1080p HDR 106 MB
+repost=P004b (sem o "Ah" inicial, começa em "que o Lula"), 08/11/2026
 reservado_utc=2026-11-02T14:51:16Z
