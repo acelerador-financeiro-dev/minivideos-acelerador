@@ -1,6 +1,7 @@
 numero=025
 pedido=2026-11-09 09:50
 bruto_bytes=471792799
-tema=
-status=em edição
+tema=Nunca dê um passo maior que a perna: cuidado com coaches e líderes religiosos (modelo Reflexão)
+status=entregue
+agendado=2026-11-09 11:00 metricool 421801851
 reservado_utc=2026-11-09T12:54:43Z
