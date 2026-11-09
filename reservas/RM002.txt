@@ -1,0 +1,4 @@
+numero=RM002
+perfil=Rezende & Marotta
+tema=Aposentadoria especial: a outra metade (modelo Imagens)
+status=entregue

@@ -1,0 +1,32 @@
+name: Montar vídeos RM (rápido)
+# Igual ao "Montar vídeos grandes", mas baixa só as partes RM* (checkout parcial), para não baixar GB de partes antigas.
+on:
+  push:
+    paths: ['videos/parts/RM*']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            videos/parts/RM*
+          sparse-checkout-cone-mode: false
+      - name: Juntar partes RM e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          shopt -s nullglob
+          for first in videos/parts/RM*.part00; do
+            name=$(basename "$first" .part00)
+            tag="v${name%%_*}"
+            if gh release view "$tag" >/dev/null 2>&1; then echo "$tag já existe"; continue; fi
+            cat videos/parts/"$name".part* > "$name"
+            ls -l "$name"
+            gh release create "$tag" "$name" --title "$name" --notes "Rezende & Marotta: vídeo final." || echo "falhou (talvez já criado)"
+          done
