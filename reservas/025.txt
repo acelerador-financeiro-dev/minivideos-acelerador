@@ -1,0 +1,6 @@
+numero=025
+pedido=2026-11-09 09:50
+bruto_bytes=471792799
+tema=
+status=em edição
+reservado_utc=2026-11-09T12:54:43Z
