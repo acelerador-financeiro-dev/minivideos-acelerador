@@ -1,0 +1,8 @@
+numero=K004
+perfil=@karam.cesar
+pedido=2026-11-10 13:05
+bruto_bytes=25302548
+origem=Telegram tópico Vídeos Karam.Cesar, msg 7533 (chegou comprimido 464p; pedir o arquivo original)
+tema=OAB da medicina e IA: médico e advogado vão virar Uber
+status=em edição
+reservado_utc=2026-11-10T17:47:41Z
