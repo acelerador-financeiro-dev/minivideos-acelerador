@@ -1,8 +1,8 @@
 numero=K004
 perfil=@karam.cesar
 pedido=2026-11-10 13:05
-bruto_bytes=25302548
-origem=Telegram tópico Vídeos Karam.Cesar, msg 7533 (chegou comprimido 464p, descartado)
+bruto_bytes=161261948
+origem=Telegram tópico Vídeos Karam.Cesar, msg 7543 como arquivo 1080x1920 (o 7533 de 464p foi descartado)
 tema=OAB da medicina e IA: médico e advogado vão virar Uber
-status=aguardando o original em alta (o de 464p foi descartado)
+status=entregue (aguardando OK para agendar)
 reservado_utc=2026-11-10T17:47:41Z
