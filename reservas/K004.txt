@@ -4,5 +4,6 @@ pedido=2026-11-10 13:05
 bruto_bytes=161261948
 origem=Telegram tópico Vídeos Karam.Cesar, msg 7543 como arquivo 1080x1920 (o 7533 de 464p foi descartado)
 tema=OAB da medicina e IA: médico e advogado vão virar Uber
-status=entregue (aguardando OK para agendar)
+status=agendado
 reservado_utc=2026-11-10T17:47:41Z
+agendado=2026-11-10 19:15 America/Sao_Paulo | Metricool Karam 8010533 post 423743633 | Instagram TRIAL_REEL + TikTok + YouTube Shorts
