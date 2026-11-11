@@ -1,0 +1,3 @@
+arroz	rice bag supermarket shelf
+conta_luz	electricity meter house
+botijao	gas cylinder kitchen
