@@ -3,3 +3,4 @@ pedido=2026-11-11 13:06
 status=entregue
 reservado_utc=2026-11-11T16:33:25Z
 tema=Reforma tributária / impostos (modelo Imagens, print da notícia), msg 7597
+agendado=2026-11-12 07:00 | Metricool 7524697 post 425078307

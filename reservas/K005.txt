@@ -4,3 +4,4 @@ pedido=2026-11-11 13:05
 status=entregue
 tema=Reação em tela dividida, msgs 7590/7591
 reservado_utc=2026-11-11T16:33:25Z
+agendado=2026-11-11 20:31 | Metricool Karam 8010533 post 425078255 | Instagram TRIAL_REEL
