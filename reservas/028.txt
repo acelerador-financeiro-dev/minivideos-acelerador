@@ -1,0 +1,5 @@
+numero=028
+pedido=2026-11-11 13:06
+status=reservado
+reservado_utc=2026-11-11T16:33:25Z
+tema=Reação em tela dividida (vídeo de outra criadora em cima, César embaixo), msgs 7586/7587

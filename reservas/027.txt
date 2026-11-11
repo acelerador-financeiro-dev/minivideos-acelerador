@@ -1,0 +1,5 @@
+numero=027
+pedido=2026-11-11 13:06
+status=reservado
+reservado_utc=2026-11-11T16:33:25Z
+tema=Reforma tributária / impostos (modelo Imagens, print da notícia), msg 7597
