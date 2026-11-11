@@ -1,0 +1,7 @@
+numero=026
+pedido=2026-11-11 12:20
+bruto_bytes=162583712
+origem=Telegram tópico Videos Acelerador, msg 7575 como arquivo 1080x1920 + print da notícia (msg 7576) + áudio de instruções (msg 7577)
+tema=Golpe de R$ 32 milhões: ex-jogador de Corinthians, São Paulo e Seleção (modelo Imagens, print nos 5 s iniciais)
+status=reservado
+reservado_utc=2026-11-11T15:27:01Z
