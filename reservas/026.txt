@@ -5,3 +5,4 @@ origem=Telegram tópico Videos Acelerador, msg 7575 como arquivo 1080x1920 + pri
 tema=Golpe de R$ 32 milhões: ex-jogador de Corinthians, São Paulo e Seleção (modelo Imagens, print nos 5 s iniciais)
 status=entregue
 reservado_utc=2026-11-11T15:27:01Z
+agendado=2026-11-11 14:10 America/Sao_Paulo | Metricool Acelerador 7524697 post 424689495 | Instagram REEL + TikTok + YouTube Shorts
