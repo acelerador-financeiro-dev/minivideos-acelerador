@@ -1,6 +1,6 @@
 numero=K005
 perfil=@karam.cesar
 pedido=2026-11-11 13:05
-status=reservado
+status=entregue
 tema=Reação em tela dividida, msgs 7590/7591
 reservado_utc=2026-11-11T16:33:25Z
