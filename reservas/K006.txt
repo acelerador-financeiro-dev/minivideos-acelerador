@@ -1,0 +1,6 @@
+numero=K006
+perfil=@karam.cesar
+pedido=2026-11-12 12:54
+status=editando
+tema=Edição básica (modelo Simples) com limpeza de áudio, msgs 7637/7638
+origem=Telegram msg 7637
