@@ -1,0 +1,5 @@
+numero=029
+pedido=2026-11-12 11:44
+status=editando
+tema=Modelo simples (frase inicial), msgs 7629/7630
+origem=Telegram tópico Videos Acelerador
