@@ -1,5 +1,6 @@
 numero=029
 pedido=2026-11-12 11:44
-status=editando
+status=entregue
 tema=Modelo simples (frase inicial), msgs 7629/7630
 origem=Telegram tópico Videos Acelerador
+agendado=2026-11-12 12:23 | Metricool 7524697 post 425827910
