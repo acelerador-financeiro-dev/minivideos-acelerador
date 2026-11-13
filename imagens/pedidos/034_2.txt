@@ -1,0 +1,6 @@
+sala_bagunca2	cluttered messy room mess
+quarto_bagunca2	messy unmade bed bedroom
+celular_banheiro2	man using smartphone on toilet
+celular_prato2	person looking at phone while eating
+roupas2	pile of clothes on chair
+limpando2	woman cleaning kitchen counter
