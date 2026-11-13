@@ -1,5 +1,6 @@
 numero=032
 pedido=2026-11-13 10:58
-status=entregue
+status=agendado
 tema=Série do banho de gelo 3/3 (agendar seg 16/11 07:00), modelo simples com cortes e zoom, msgs 7790/7791
 origem=Telegram tópico Videos Acelerador
+agendado=2026-11-16 07:00 | Metricool 7524697 post 427009206
