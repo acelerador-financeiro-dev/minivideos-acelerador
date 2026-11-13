@@ -1,0 +1,3 @@
+paris_greve	protest strike crowd march paris
+paris_greve_b	demonstration protesters banners street france
+eiffel	eiffel tower paris
