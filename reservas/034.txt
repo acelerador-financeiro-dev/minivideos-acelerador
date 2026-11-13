@@ -1,0 +1,5 @@
+numero=034
+pedido=2026-11-13 12:09
+status=editando
+tema=Série Perdedor x Vencedor (Léo Marcondes), msgs 7827/7848
+origem=Telegram tópico Videos Acelerador
