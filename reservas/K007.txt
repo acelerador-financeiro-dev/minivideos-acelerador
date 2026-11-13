@@ -1,6 +1,6 @@
 numero=K007
 perfil=@karam.cesar
 pedido=2026-11-13 11:08
-status=editando
-tema=Vídeo do banho de gelo (modelo Simples com cortes e zoom), msg 7786
+status=entregue
+tema=Reflexão sobre esperar o orgulho do pai (modelo Simples com cortes e zoom), msg 7786
 origem=Telegram msg 7786
