@@ -1,0 +1,5 @@
+numero=031
+pedido=2026-11-13 10:51
+status=editando
+tema=Série do banho de gelo 2/3 (agendar dom 15/11 07:00), modelo simples com cortes e zoom, msgs 7789/7791
+origem=Telegram tópico Videos Acelerador
