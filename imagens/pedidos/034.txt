@@ -1,0 +1,20 @@
+sala_bagunca	messy living room clutter
+sala_arrumada	clean tidy living room
+quarto_bagunca	messy bedroom clothes
+quarto_arrumado	made bed tidy bedroom
+cozinha_suja	dirty kitchen messy
+cozinha_limpa	clean modern kitchen
+roupas_espalhadas	clothes scattered floor
+guarda_roupa	organized wardrobe closet
+luxo	luxury house interior
+limpando	cleaning table home
+desanimado	tired man couch
+mesa_bagunca	messy desk papers
+celular_banheiro	phone in bathroom toilet
+celular_prato	phone at dinner table eating
+pia_suja	dirty dishes sink
+casa_organizada	organized home shelves
+pensando	man thinking calm
+escritorio_casa	home office desk tidy
+cama_feita	neatly made bed
+familia_casa	happy family home living room
