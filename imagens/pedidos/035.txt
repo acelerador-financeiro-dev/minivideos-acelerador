@@ -1,0 +1,24 @@
+arrozfeijao	rice and beans plate brazilian food
+preco	supermarket price tag shelf
+carrinho	supermarket shopping cart aisle
+cesta	grocery basket vegetables
+arroz	rice bag grains
+carneovo	raw meat and eggs
+queijos	cheese assortment
+gorgonzola	blue cheese brie gourmet
+desconto	discount percent sale sign
+refrigerante	soda bottles sugar drinks
+peixe	fish market fresh fish
+acougue	butcher shop meat counter
+caixa	supermarket checkout cashier
+empresa	big warehouse distribution center
+ansioso	anxious man waiting worried
+lista	shopping list notebook pen
+hortifruti	fruits and vegetables market stall
+ultra	junk food chips snacks
+saudavel	healthy home cooked meal
+nota	grocery receipt paper
+anotando	woman writing notes notebook kitchen
+prateleira	supermarket shelf products
+concorrencia	supermarket aisle comparing prices
+familia	family grocery shopping together
