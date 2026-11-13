@@ -1,5 +1,5 @@
 numero=033
 pedido=2026-11-13 11:54
-status=editando
-tema=Greve geral em Paris (modelo Imagens, abertura com vídeo da manifestação em meia tela; agendar hoje 17h)
+status=entregue
+tema=Greve geral em Paris (modelo Imagens; agendar hoje 17h)
 origem=Telegram msg 7815/7816 tópico Videos Acelerador
