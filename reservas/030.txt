@@ -1,0 +1,5 @@
+numero=030
+pedido=2026-11-13 09:39
+status=editando
+tema=Série 1/3 (agendar sáb 7h), modelo simples com cortes e zoom, msgs 7788/7791
+origem=Telegram tópico Videos Acelerador
