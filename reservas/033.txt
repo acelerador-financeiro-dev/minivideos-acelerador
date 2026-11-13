@@ -1,5 +1,6 @@
 numero=033
 pedido=2026-11-13 11:54
-status=entregue
+status=agendado
 tema=Greve geral em Paris (modelo Imagens; agendar hoje 17h)
 origem=Telegram msg 7815/7816 tópico Videos Acelerador
+agendado=2026-11-13 17:00 | Metricool 7524697 post 427137341
