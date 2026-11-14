@@ -3,3 +3,4 @@ pedido=2026-11-14
 status=entregue
 tema=Médicos ganham R$ 36 mil e vivem no aperto: o padrão de vida sobe junto (modelo Motion) - sai segunda 16/11 11h
 origem=Telegram msg 7956
+agendado=2026-11-16T11:00 | Metricool 7524697 post 428451557
