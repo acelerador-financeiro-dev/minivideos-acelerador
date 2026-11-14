@@ -1,0 +1,5 @@
+numero=059
+pedido=2026-11-14
+status=editando
+tema=Vídeo 2 do lote (som a melhorar) - sai segunda 16/11 11h
+origem=Telegram msg 7956

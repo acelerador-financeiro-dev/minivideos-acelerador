@@ -1,0 +1,5 @@
+numero=058
+pedido=2026-11-14
+status=editando
+tema=Vídeo 1 do lote (som a melhorar) - sai domingo 15/11 11h
+origem=Telegram msg 7955
