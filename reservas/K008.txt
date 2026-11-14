@@ -1,0 +1,6 @@
+numero=K008
+perfil=@karam.cesar
+pedido=2026-11-14 15:08
+status=editando
+tema=Vídeo do Karam gravado em 14/11 (modelo a definir pela transcrição), msg 7975
+origem=Telegram msg 7975
