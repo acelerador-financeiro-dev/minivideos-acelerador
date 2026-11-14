@@ -1,0 +1,5 @@
+numero=057
+pedido=2026-11-14
+status=editando
+tema=a definir (vídeo da msg 7943, postar agora)
+origem=Telegram msg 7943
