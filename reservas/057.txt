@@ -1,5 +1,5 @@
 numero=057
 pedido=2026-11-14
-status=editando
-tema=a definir (vídeo da msg 7943, postar agora)
+status=entregue
+tema=Morar no Paraguai é mais barato? (salário mínimo, 3 dicas)
 origem=Telegram msg 7943
