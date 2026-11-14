@@ -1,5 +1,5 @@
 numero=059
 pedido=2026-11-14
-status=editando
-tema=Vídeo 2 do lote (som a melhorar) - sai segunda 16/11 11h
+status=entregue
+tema=Médicos ganham R$ 36 mil e vivem no aperto: o padrão de vida sobe junto (modelo Motion) - sai segunda 16/11 11h
 origem=Telegram msg 7956
