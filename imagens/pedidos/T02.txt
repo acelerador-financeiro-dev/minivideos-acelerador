@@ -1,0 +1,12 @@
+B01	credit card swipe shopping mall
+B02	savings jar coins notebook
+B03	new car showroom dealership
+B04	used car paid off happy owner
+B05	delivery food boxes sofa
+B06	cooking home family kitchen
+B07	luxury watch wrist
+B08	books studying desk lamp
+B09	bills debt stress table
+B10	investment chart laptop
+B11	party crowd expensive
+B12	family picnic park

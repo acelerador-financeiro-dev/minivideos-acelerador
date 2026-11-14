@@ -1,0 +1,8 @@
+A01	coffee cup cafe counter
+A02	food delivery motorcycle
+A03	tv remote streaming couch
+A04	cigarette pack ashtray
+A05	smartphone betting app
+A06	beer bottles bar table
+A07	piggy bank savings coins
+A08	family beach vacation
