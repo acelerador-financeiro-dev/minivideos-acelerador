@@ -1,0 +1,7 @@
+C01	black friday sale sign store
+C02	price tag discount label
+C03	online shopping cart laptop
+C04	credit card installments payment
+C05	shopping bags woman tired
+C06	calendar notebook planning
+C07	piggy bank savings coins
