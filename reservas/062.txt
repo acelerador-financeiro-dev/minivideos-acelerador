@@ -1,0 +1,5 @@
+numero=062
+pedido=2026-11-14
+status=editando
+tema=Vídeo 3 do lote 7965 - sai quinta 19/11 11h
+origem=Telegram msg 7967
