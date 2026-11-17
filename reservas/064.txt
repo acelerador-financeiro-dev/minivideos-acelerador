@@ -1,5 +1,5 @@
 numero=064
 pedido=2026-11-17
-status=editando
-tema=(a definir após transcrição)
+status=entregue
+tema=Negociar dívida sem pressa: desconto de até 90%, limite de juros do rotativo (lei 2024), dinheiro à vista, dívidas que não podem esperar (mapa)
 origem=Telegram msg 8220
