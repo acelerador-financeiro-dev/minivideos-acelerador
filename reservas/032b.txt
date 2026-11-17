@@ -1,5 +1,6 @@
 numero=032b
 pedido=2026-11-17 00:22
-status=editando
+status=agendado
 tema=Reedição do 032 (celular custa quantos dias da vida) no modelo Motion, com legenda e cards de números
 origem=Pedido do César 17/11/2026, fila r032
+agendado=2026-11-18 07:00 | postador direto (Instagram + YouTube); TikTok via Metricool
