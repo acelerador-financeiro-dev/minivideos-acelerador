@@ -1,5 +1,5 @@
 numero=063
 pedido=2026-11-17
-status=editando
-tema=(a definir após transcrição)
+status=entregue
+tema=Namoro enrolado custa R$ 43 mil (aluguel duplicado, 3 dicas pra decidir o casamento)
 origem=Telegram msg 8191
