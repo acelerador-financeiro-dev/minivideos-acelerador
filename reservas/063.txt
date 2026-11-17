@@ -1,0 +1,5 @@
+numero=063
+pedido=2026-11-17
+status=editando
+tema=(a definir após transcrição)
+origem=Telegram msg 8191
