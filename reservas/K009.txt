@@ -1,5 +1,5 @@
 numero=K009
 pedido=2026-11-17
-status=editando
-tema=(a definir pela transcrição)
+status=entregue
+tema=Família forte cuida da mesa (mesa como ponto de encontro; 10 min sem celular)
 origem=Telegram msg 8199 (karam, pedido k8199)
