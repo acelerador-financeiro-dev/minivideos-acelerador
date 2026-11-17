@@ -1,0 +1,5 @@
+numero=K009
+pedido=2026-11-17
+status=editando
+tema=(a definir pela transcrição)
+origem=Telegram msg 8199 (karam, pedido k8199)
