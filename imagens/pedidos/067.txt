@@ -1,0 +1,31 @@
+stf_fachada	supreme court brazil building brasilia
+martelo	judge gavel court
+biblia_aberta	open bible old pages
+rei_josias	arte:King Josiah painting
+rei_ezequias	arte:Hezekiah king painting
+baal_altar	arte:Baal altar idol worship
+bezerro_ouro	arte:golden calf painting
+idolo_estatua	golden idol statue
+altar_pedra	ancient stone altar
+ruinas_cidade	ancient ruins city
+muralha_caida	collapsed stone wall
+seca_terra	drought dry cracked land
+tempestade	dark storm clouds
+multidao_oracao	crowd praying together
+maos_oracao	praying hands bible
+familia_mesa	family dinner table home
+familia_dinheiro	family counting money bills
+bandeira_brasil	brazil flag waving
+coracao_maos	hands holding heart
+lampada_oleo	oil lamp light
+coroa_rei	golden crown king
+comentarios	phone social media comments
+igreja_interior	church interior
+tres_poderes	brasilia national congress architecture
+balanca_justica	scales of justice statue
+fogo_chama	fire flame dark
+raios_luz	sun rays through clouds
+amanhecer	sunrise hope sky
+mao_estendida	hand reaching out
+porta_fechada	closed old door
+livro_antigo	old book candle
