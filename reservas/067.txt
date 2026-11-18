@@ -1,0 +1,5 @@
+numero=067
+pedido=2026-11-18
+status=editando
+tema=reflexivo com frase forte e foto de vira-lata (a definir pela fala)
+origem=Telegram msg 8331 (pedido a8331)
