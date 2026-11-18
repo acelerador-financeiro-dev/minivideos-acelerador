@@ -1,5 +1,5 @@
 numero=066
 pedido=2026-11-18
-status=editando
-tema=Matéria com foto do Xangô (modelo Imagens, poucas fotos, urgente)
+status=entregue
+tema=Escultura de Xangô no STF e o que a Bíblia fala (modelo Imagens, poucas fotos, urgente)
 origem=Telegram msg 8302

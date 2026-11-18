@@ -1,4 +1,0 @@
-xango	orisha statue sculpture axe
-xango_b	african religious sculpture wood statue
-biblia	open bible
-altar	stone altar fire
