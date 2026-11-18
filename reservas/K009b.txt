@@ -1,0 +1,6 @@
+numero=K009b
+perfil=@karam.cesar
+pedido=2026-11-17
+status=entregue
+tema=Família forte cuida da mesa (reedição do K009: vídeo inteiro, minimalista com legenda, áudio tratado só nos estalos)
+origem=Telegram msg 8199, correção pedida pelo César
