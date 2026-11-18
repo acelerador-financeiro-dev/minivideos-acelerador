@@ -1,0 +1,7 @@
+numero=064c
+perfil=@aceleradorfinanceiro
+pedido=2026-11-17
+status=agendado
+tema=Dívida sem pressa (isca MAPA), abertura corrigida
+agendado=2026-11-18 11:00 | Instagram e YouTube pelo postador direto
+origem=Telegram msg 8220
