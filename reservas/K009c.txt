@@ -1,0 +1,6 @@
+numero=K009c
+perfil=@karam.cesar
+pedido=2026-11-17
+status=postado
+tema=Família forte cuida da mesa (minimalista da skill: sem zoom, cortes só em pausas longas, vídeo inteiro)
+origem=Telegram msg 8199, correção do César
