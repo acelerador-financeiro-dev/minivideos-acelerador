@@ -1,0 +1,5 @@
+numero=065
+pedido=2026-11-18
+status=editando
+tema=(a definir) vídeo com som abafado; teste de tratamento de áudio
+origem=Telegram msg 8283
