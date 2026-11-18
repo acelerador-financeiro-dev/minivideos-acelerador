@@ -1,0 +1,6 @@
+numero=K010
+perfil=@karam.cesar
+pedido=2026-11-18
+status=editando
+tema=Notícia (modelo Imagens, poucas fotos, postar na hora)
+origem=Telegram msg 8295, áudio 8298
