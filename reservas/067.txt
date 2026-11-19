@@ -2,4 +2,5 @@ numero=067
 pedido=2026-11-18
 status=entregue
 tema=Reflexivo: cirurgia do cachorro por R$ 10.500, cartão e casamento (Minimalista com legenda, frase forte e foto de vira-lata nos 10 s iniciais)
+agendado=2026-11-19T07:00 | Metricool 7524697 post 433623591 (TikTok); Instagram e YouTube pelo postador direto
 origem=Telegram msg 8331 (pedido a8331)
