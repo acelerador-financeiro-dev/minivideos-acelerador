@@ -1,5 +1,5 @@
 numero=070
 pedido=2026-11-20
-status=editando
-tema=(definindo) roteiros imediatos
+status=entregue
+tema=15 mil é salário de rico, mas o rico de hoje compra menos carro e casa que o de 2000 (Motion, faixa no topo, sem zoom)
 origem=Telegram msg 49 (pedido a47)
