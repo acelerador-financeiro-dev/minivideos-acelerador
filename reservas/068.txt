@@ -1,5 +1,5 @@
 numero=068
 pedido=2026-11-20
-status=editando
-tema=(definindo) vídeo de momento com print da notícia, postar hoje
+status=entregue
+tema=Golpe do falso amor: idosa de 75 anos em Juiz de Fora perde R$ 168 mil pela biometria facial (Motion, print da notícia Acessa no começo)
 origem=Telegram msg 53 (pedido a47)
