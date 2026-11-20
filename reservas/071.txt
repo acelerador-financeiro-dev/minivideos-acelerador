@@ -1,5 +1,6 @@
 numero=071
 pedido=2026-11-20
-status=entregue
+status=agendado
 tema=A escola de R$ 9 mil não era o mais caro: o Pedro pediu pra sair de uma competição que já tinha perdido (Imagens)
-origem=Telegram msg 51 (pedido a47)
+origem=Telegram msg 51 (pedido a47, retomado no a51)
+agendado=2026-11-21 07:00 | Instagram e YouTube pelo postador direto; TikTok Metricool 7524697 post 436095135
