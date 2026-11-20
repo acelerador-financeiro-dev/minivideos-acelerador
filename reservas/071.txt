@@ -1,0 +1,5 @@
+numero=071
+pedido=2026-11-20
+status=editando
+tema=(definindo) roteiros imediatos
+origem=Telegram msg 51 (pedido a47)

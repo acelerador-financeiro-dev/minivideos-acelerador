@@ -1,0 +1,5 @@
+numero=068
+pedido=2026-11-20
+status=editando
+tema=(definindo) vídeo de momento com print da notícia, postar hoje
+origem=Telegram msg 53 (pedido a47)
