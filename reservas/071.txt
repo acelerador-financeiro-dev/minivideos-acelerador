@@ -1,5 +1,5 @@
 numero=071
 pedido=2026-11-20
-status=editando
-tema=(definindo) roteiros imediatos
+status=entregue
+tema=A escola de R$ 9 mil não era o mais caro: o Pedro pediu pra sair de uma competição que já tinha perdido (Imagens)
 origem=Telegram msg 51 (pedido a47)
