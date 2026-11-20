@@ -1,5 +1,5 @@
 numero=069
 pedido=2026-11-20
-status=editando
-tema=(definindo) roteiros imediatos
+status=entregue
+tema=Ele chorou pra não vender a picape: a dívida mais cara é a da vergonha (Imagens, faixa no topo, sem zoom)
 origem=Telegram msg 47 (pedido a47)
