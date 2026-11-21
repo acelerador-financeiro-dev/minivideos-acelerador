@@ -1,0 +1,5 @@
+numero=072
+pedido=2026-11-21 08:35
+status=editando
+tema=A conta que todo pai faz está errada (o mesmo Deus que manda o filho manda o pão)
+origem=Telegram msg 143 (pedido a143)
