@@ -1,6 +1,7 @@
 numero=K011
 perfil=@karam.cesar
 pedido=2026-11-21
-status=editando
+status=entregue
 tema=Fé e família: o medo que todo pai esconde (variação de "O mesmo Deus que manda o filho manda o pão"), modelo Minimalista
 origem=Telegram msg 58, ordem do César no chat (pedido k58)
+agendado=2026-11-21T09:04 | postador direto (Instagram Reel de teste + YouTube Karam)
