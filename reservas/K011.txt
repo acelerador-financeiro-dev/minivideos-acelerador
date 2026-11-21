@@ -4,4 +4,6 @@ pedido=2026-11-21
 status=entregue
 tema=Fé e família: o medo que todo pai esconde (variação de "O mesmo Deus que manda o filho manda o pão"), modelo Minimalista
 origem=Telegram msg 58, ordem do César no chat (pedido k58)
-agendado=2026-11-21T09:04 | postador direto (Instagram Reel de teste + YouTube Karam)
+v1=reprovada pelo César 21/11 09h06 (karaokê, título na margem, som); post apagado
+v2=K011_v2_O_Medo_Que_Todo_Pai_Esconde.mp4 (release vK011-v2): sem legenda, título só 0-3 s na área segura, choro e puf tratados, -14,4 LUFS
+agendado=2026-11-21T09:30 | postador direto (Instagram Reel de teste + YouTube Karam), versão v2
