@@ -5,3 +5,5 @@ tema=A conta que todo pai faz está errada (o mesmo Deus que manda o filho manda
 origem=Telegram msg 143 (pedido a143)
 modelo=Minimalista (fé e família, sem números)
 agendado=2026-11-21 (postar já, ordem do César) | postador direto IG+YT
+v1=reprovada pelo César 21/11 09h06 (karaokê, título na margem, puf e choro); post apagado
+v2=072_A_Conta_Que_Todo_Pai_Faz_v2.mp4 | sem legenda, só a frase nos 3 s, som tratado | postar já (postador direto IG+YT)
