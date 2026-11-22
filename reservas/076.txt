@@ -1,5 +1,9 @@
 numero=076
 pedido=2026-11-22
-status=editando
-tema=(a definir)
+status=entregue
+agendado=2026-11-22T20:00 (Brasília) | postador direto (Instagram Reel + YouTube Short), ordem do César
+video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v076/076_Rico_Se_Mede_Em_Meses.mp4
+tema=Ganha R$ 16 mil e está devendo: rico se mede em meses (Peic/CNC, dois vizinhos) — Motion
+modelo=Motion (muitos números: R$ 16 mil, 70%, 15 em 100, R$ 20 mil x R$ 6 mil, R$ 30 mil, 6 meses): 39 cards na janela de cima + legenda karaokê
+som=tratado: original -25,5 LUFS / piso -45,6 dBFS (fala -21) -> final -14,8 LUFS, pico -1,4 dBFS, piso 35 dB abaixo da fala; 22 janelas de puf com grave abaixo do original
 origem=Telegram msg 200 (pedido a200)
