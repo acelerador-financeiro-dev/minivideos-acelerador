@@ -1,0 +1,5 @@
+numero=075
+pedido=2026-11-22
+status=editando
+tema=(a definir)
+origem=Telegram msg 199 (pedido a199)
