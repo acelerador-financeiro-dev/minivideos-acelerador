@@ -1,6 +1,8 @@
 numero=073
 pedido=2026-11-22
-status=editando
+status=entregue
+agendado=2026-11-22T16:16 | postador direto (Instagram Reel + YouTube Short), pedido do César: postar imediatamente
+video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v073/073_Mulher_Briguenta_Deixa_O_Homem_Pobre.mp4
 tema=Mulher briguenta deixa o homem pobre (Provérbios 21:9) — Minimalista
 modelo=Minimalista (reflexão de fé/relacionamento, sem números): frase no topo 0-3 s, legenda branca sem karaokê
 som=tratado: original -31,3 LUFS / piso -59 dBFS -> final -14,2 LUFS, pico -1,4 dBFS; 11 estalos de P/B com grave 14-29 dB abaixo do original
