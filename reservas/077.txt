@@ -1,0 +1,5 @@
+numero=077
+pedido=2026-11-23
+status=editando
+tema=React (1 de 2, msg 378)
+origem=Telegram msg 378

@@ -1,0 +1,5 @@
+numero=078
+pedido=2026-11-23
+status=editando
+tema=React (2 de 2, msg 379)
+origem=Telegram msg 379
