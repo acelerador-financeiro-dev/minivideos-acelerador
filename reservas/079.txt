@@ -1,5 +1,6 @@
 numero=079
 pedido=2026-11-23
-status=editando
-tema=(a definir)
+status=entregue
+tema=Casal que racha a conta já está separado (Motion)
 origem=Telegram msg 390
+agendado=2026-11-24T07:00 | postador direto (Instagram + YouTube)
