@@ -1,0 +1,6 @@
+numero=K012
+perfil=@karam.cesar
+pedido=2026-11-23
+status=editando
+tema=Quem não te derruba ataca seu nome / a inveja não pode te parar (já veio editado pelo César; mesmo vídeo do 082 do Acelerador)
+origem=Telegram msg 117 e 118 (mesmo arquivo, md5 igual), pedido k117; horário: k127/k128/k131 (amanhã 7h, só agendar)
