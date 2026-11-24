@@ -1,0 +1,5 @@
+numero=081
+pedido=2026-11-23
+status=editando
+tema=Gelo: o peso de se posicionar com todo mundo (já veio editado)
+origem=Telegram msg 410

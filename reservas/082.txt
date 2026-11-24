@@ -1,0 +1,5 @@
+numero=082
+pedido=2026-11-23
+status=editando
+tema=A inveja não pode te parar (já veio editado)
+origem=Telegram msg 408
