@@ -1,0 +1,6 @@
+numero=K014
+perfil=@karam.cesar
+pedido=2026-11-24
+status=editando
+tema=Fala livre: 87 vídeos / 120 seguidores (corte de até 2:59, Minimalista)
+origem=Telegram, pedido kvoz24 (vídeo 20261124-voz-livre.mp4)

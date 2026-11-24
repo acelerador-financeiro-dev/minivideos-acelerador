@@ -1,0 +1,6 @@
+numero=K013
+perfil=@karam.cesar
+pedido=2026-11-24
+status=editando
+tema=Fala livre: criar conteúdo quase me derrubou (versão longa ~8 min, Minimalista)
+origem=Telegram, pedido kvoz24 (vídeo 20261124-voz-livre.mp4)
