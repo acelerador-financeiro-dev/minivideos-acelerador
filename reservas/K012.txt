@@ -1,6 +1,8 @@
 numero=K012
 perfil=@karam.cesar
 pedido=2026-11-23
-status=editando
-tema=Quem não te derruba ataca seu nome / a inveja não pode te parar (já veio editado pelo César; mesmo vídeo do 082 do Acelerador)
+status=entregue
+tema=Cristão pode ostentar? (já veio editado pelo César; mesmo arquivo do 081 do Acelerador, msg 410)
 origem=Telegram msg 117 e 118 (mesmo arquivo, md5 igual), pedido k117; horário: k127/k128/k131 (amanhã 7h, só agendar)
+arquivo=K012_Cristao_Pode_Ostentar.mp4 (release vK012): igual ao 081, som -15 LUFS, 1080x1920, 87 s, sem reedição
+agendado=2026-11-24T07:00 | postador direto (Instagram Reel de teste + YouTube Karam)
