@@ -1,5 +1,6 @@
 numero=080
 pedido=2026-11-23
-status=editando
-tema=Gelo: empresário muito disponível é amador (já veio editado)
+status=entregue
+tema=Gelo: empresário disponível o tempo todo é amador (já veio editado)
 origem=Telegram msg 409
+agendado=2026-11-25T07:00 | postador direto (Instagram + YouTube)

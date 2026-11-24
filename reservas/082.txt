@@ -1,5 +1,6 @@
 numero=082
 pedido=2026-11-23
-status=editando
-tema=A inveja não pode te parar (já veio editado)
+status=entregue
+tema=Quem não te derruba ataca seu nome / a inveja não pode te parar (já veio editado)
 origem=Telegram msg 408
+agendado=2026-11-27T07:00 | postador direto (Instagram + YouTube)

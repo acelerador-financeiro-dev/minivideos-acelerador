@@ -1,5 +1,6 @@
 numero=081
 pedido=2026-11-23
-status=editando
-tema=Gelo: o peso de se posicionar com todo mundo (já veio editado)
+status=entregue
+tema=Gelo: cristão pode ostentar? (já veio editado)
 origem=Telegram msg 410
+agendado=2026-11-26T07:00 | postador direto (Instagram + YouTube)
