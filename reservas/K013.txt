@@ -1,6 +1,8 @@
 numero=K013
 perfil=@karam.cesar
 pedido=2026-11-24
-status=editando
-tema=Fala livre: criar conteúdo quase me derrubou (versão longa ~8 min, Minimalista)
+status=aguardando-som
+tema=Fala livre: criar conteúdo quase me derrubou (versão longa 8:29, Minimalista)
 origem=Telegram, pedido kvoz24 (vídeo 20261124-voz-livre.mp4)
+arquivo=K013_Criar_Conteudo_Quase_Me_Derrubou.mp4 (1080x1920, 30 fps, 508,8 s, 178 MB), imagem pronta e conferida
+falta=som aprovado (DeepFilterNet): rodar /root/videos/edicao/K013/finalizar-som.sh; depois prévia ao César; NÃO postar sem OK
