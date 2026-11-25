@@ -1,6 +1,6 @@
 numero=085
 pedido=2026-11-25
-status=editando
+status=entregue
 tema=Esconder dívida da esposa é traição (homem paga o mínimo do cartão, dívida de R$ 48 mil, esposa descobre no caixa do mercado) - modelo Imagens
 origem=Telegram msg 531
 modelo=imagens
