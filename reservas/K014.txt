@@ -1,8 +1,11 @@
 numero=K014
 perfil=@karam.cesar
 pedido=2026-11-24
-status=aguardando-som
+status=entregue
+modelo=minimalista
 tema=Fala livre: 87 vídeos / 120 seguidores (corte 2:52, Minimalista)
 origem=Telegram, pedido kvoz24 (vídeo 20261124-voz-livre.mp4)
 arquivo=K014_87_Videos_120_Seguidores.mp4 (1080x1920, 30 fps, 172,5 s, 123 MB), imagem pronta e conferida
-falta=som aprovado (DeepFilterNet): rodar /root/videos/edicao/K013/finalizar-som.sh; depois prévia ao César; NÃO postar sem OK
+som=versão C escolhida pelo César (msg 170 respondendo à 156, 25/11): afftdn leve + EQ, sem exciter; -14,2 LUFS, pico -1,7 dB
+release=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/vK014/K014_87_Videos_120_Seguidores.mp4
+falta=César dizer quando postar; perguntar se aplica o som C no K013 (8:29)
