@@ -1,6 +1,6 @@
 numero=083
 pedido=2026-11-24
-status=editando
-tema=Dinheiro não se ganha trabalhando (minimalista com legenda)
+status=entregue
+tema=Dinheiro não se ganha trabalhando (minimalista com legenda e zoom leve, a pedido)
 origem=Telegram msg 481
 modelo=minimalista
