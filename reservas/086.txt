@@ -1,6 +1,6 @@
 numero=086
 pedido=2026-11-25
-status=entregue
+status=pronto (prévia travada no conferidor: título no peito = falso positivo; falta AVISAR_FORCAR)
 tema=Casal que briga por dinheiro perde a bênção - modelo Minimalista (mesmo estilo do 073)
 origem=Telegram msg 580 (pedido a580)
 modelo=minimalista
