@@ -1,0 +1,5 @@
+numero=085
+pedido=2026-11-25
+status=editando
+tema=(a definir pela fala)
+origem=Telegram msg 531
