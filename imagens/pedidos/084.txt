@@ -1,0 +1,16 @@
+print1	url:https://image.thum.io/get/width/1080/crop/1600/noanimate/https://www.infomoney.com.br/politica/supersalarios-serao-cortados-apos-a-aprovacao-do-pacote-fiscal-entenda-o-que-muda/
+print2	url:https://image.thum.io/get/width/1080/crop/1600/noanimate/https://newsrondonia.com.br/politica/2026/11/24/lula-sanciona-sem-vetos-lei-do-ajuste-fiscal-com-economia-de-ate-r-56-bilhoes-em-2027
+print3	url:https://image.thum.io/get/width/1080/crop/1600/noanimate/https://www.bnewsrn.com.br/noticias/politica/lula-sanciona-pacote-fiscal-que-pode-economizar-ate-r-561-bilhoes-em-2027.html
+fabrica	factory industry workers
+estado	government building columns
+ricos	businessman suit counting money
+planalto	brasilia government palace modern architecture
+stf	courthouse building justice
+servidores	public office employees desks
+constituicao	constitution book law old
+chuva_dinheiro	money falling banknotes rain
+leao	lion portrait
+tesoura	scissors cutting paper
+policial	police officer uniform
+juiz	judge gavel courtroom
+plenario	parliament voting hands raised
