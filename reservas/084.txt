@@ -4,4 +4,4 @@ status=entregue
 tema=Cortaram de tudo, menos os supersalários (ajuste fiscal R$ 56 bi, 53 mil acima do teto, R$ 20 bi) - modelo Imagens com print da notícia
 origem=Telegram msg 508
 modelo=imagens
-agendado=2026-11-28T07:00 | postador direto (agenda_direta em fila/a508.resultado.json)
+agendado=2026-11-25T11:00 | postador direto (agenda_direta em fila/a508.resultado.json) | remarcado de 28/11 7h a pedido do César (áudio 550)
