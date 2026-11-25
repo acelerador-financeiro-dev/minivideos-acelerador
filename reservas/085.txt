@@ -4,3 +4,4 @@ status=entregue
 tema=Esconder dívida da esposa é traição (homem paga o mínimo do cartão, dívida de R$ 48 mil, esposa descobre no caixa do mercado) - modelo Imagens
 origem=Telegram msg 531
 modelo=imagens
+v2=2026-11-25 msg 571: som refeito (limpeza de ruido antes da EQ, pausas -50 dB); imagem igual; release v085 substituida (--clobber)

@@ -5,3 +5,4 @@ tema=Cortaram de tudo, menos os supersalários (ajuste fiscal R$ 56 bi, 53 mil a
 origem=Telegram msg 508
 modelo=imagens
 agendado=2026-11-25T11:00 | postador direto (agenda_direta em fila/a508.resultado.json) | remarcado de 28/11 7h a pedido do César (áudio 550)
+v2=2026-11-25 msg 571: som refeito (limpeza de ruido antes da EQ, pausas -50 dB) + manchete real so o titulo, grande, nos primeiros 7,3 s; release v084 substituida (--clobber)
