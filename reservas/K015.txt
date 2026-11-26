@@ -1,0 +1,7 @@
+numero=K015
+perfil=@karam.cesar
+pedido=2026-11-25
+status=editando
+modelo=minimalista
+tema=Minimalista Karam (legenda branca com amarelo, título em cima da cabeça 5 s)
+origem=Telegram msg 167 (pedido k167, áudio 168)
