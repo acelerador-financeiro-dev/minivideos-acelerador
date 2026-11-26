@@ -1,7 +1,11 @@
 numero=K015
 perfil=@karam.cesar
 pedido=2026-11-25
-status=editando
+status=entregue
 modelo=minimalista
-tema=Minimalista Karam (legenda branca com amarelo, título em cima da cabeça 5 s)
+tema=Mulher briguenta deixa o cara pobre (Provérbios 21:9 e 31:11), Minimalista com legenda branca e palavra em amarelo, título 5 s acima da cabeça
 origem=Telegram msg 167 (pedido k167, áudio 168)
+arquivo=K015_Mulher_Briguenta_Deixa_O_Cara_Pobre.mp4 (1080x1920, 30 fps, 72,5 s, 75 MB), sem cortes (fala corrida), sem zoom
+som=bruto -31,8 LUFS e abafado (3 kHz -30 dB vs 400 Hz); highpass 90 + afftdn nr 8 + EQ de presença + de-esser + compressão; final -14,5 LUFS, pico -1,5 dB, 3 kHz -17 dB
+release=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/vK015/K015_Mulher_Briguenta_Deixa_O_Cara_Pobre.mp4
+falta=César dizer quando postar
