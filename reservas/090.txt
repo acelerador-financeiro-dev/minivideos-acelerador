@@ -1,6 +1,7 @@
 numero=090
 pedido=2026-11-27
-status=entregue
+status=agendado
+agendado=2026-12-01T07:00 | postador direto (agenda_direta em fila/a758.resultado.json) | César msg 779: versões do Mounjaro às 7h
 video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v090/090_Mounjaro_Cliente_Do_Golpe.mp4
 tema=Quem toma Mounjaro é cliente do golpe (2ª variação do Mounjaro, gêmeo do 087: golpista vende pressa; Anvisa e caneta falsa; vencedor faz o chato; Provérbios) - modelo Imagens
 modelo=imagens
