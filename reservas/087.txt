@@ -1,6 +1,11 @@
 numero=087
 pedido=2026-11-27
-status=editando
-tema=(a definir) - modelo Imagens
-origem=Telegram msg 716 (pedido a716)
+status=agendado
+agendado=2026-11-28T11:00 | postador direto (agenda_direta em fila/a716.resultado.json) | César: "ficando pronto só postar" -> próxima faixa vazia (controle-agenda)
+video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v087/087_Mounjaro_Coisa_De_Perdedor.mp4
+tema=Tomar Mounjaro é coisa de perdedor (perdedor quer tudo rápido; Anvisa apreendeu lotes falsos; vencedor faz o chato que dura) - modelo Imagens
+origem=Telegram msgs 716, 717 e 718 (pedido a716; 3 partes juntadas num vídeo só)
 modelo=imagens
+som=tratado (receita v3): original muito abafado (2k/3k -30 dB vs 400 Hz) e partes com volumes diferentes (igualadas) -> final -14,8 LUFS, pico -1,4 dBFS, agudos 2k/3k -9 a -13 dB
+v2=2026-11-27 dois "puf" de microfone (7,2 s e 16,3 s) tratados depois da normalização (-12 dB + passa-alta 300 Hz, 0,2 s): grave na janela caiu ~15x; release v087 substituída (--clobber), -14 LUFS, pico -1,2 dBFS
+visual=janela de imagens no topo (54 trocas, whoosh em cada), frase de abertura no peito nos primeiros 6 s, legenda karaokê no peito
