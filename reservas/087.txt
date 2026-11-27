@@ -1,0 +1,6 @@
+numero=087
+pedido=2026-11-27
+status=editando
+tema=(a definir) - modelo Imagens
+origem=Telegram msg 716 (pedido a716)
+modelo=imagens
