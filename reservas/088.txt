@@ -1,5 +1,6 @@
 numero=088
 pedido=2026-11-27
 status=editando
-tema=(a definir pela fala)
+tema=Contabilidade mental (Richard Thaler, Nobel 2017): por que R$ 30 do estacionamento dói mais que R$ 500 do jantar (Motion, 1,2x)
+modelo=motion
 origem=Telegram msg 729
