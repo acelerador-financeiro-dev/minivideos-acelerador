@@ -1,0 +1,5 @@
+numero=091
+pedido=2026-11-27
+status=editando
+tema=(a definir pela fala) 1ª de 2 variações, junta os vídeos 793 + 794
+origem=Telegram msg 793/794/795 (pedido a793)
