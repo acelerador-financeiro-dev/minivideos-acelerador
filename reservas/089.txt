@@ -1,6 +1,10 @@
 numero=089
 pedido=2026-11-27
-status=editando
-tema=(a definir pela fala) - modelo Minimalista com zoom leve, pedido para as 19h
+status=agendado
+agendado=2026-11-27T19:37 | postador direto (agenda_direta em fila/a745.resultado.json) | César pediu 19h
+video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v089/089_R5_No_Arroz_Doi_150_No_Boteco_Nao.mp4
+tema=R$ 5 no arroz dói, R$ 150 no boteco não: contabilidade mental (Richard Thaler, Nobel 2017) - modelo Minimalista com zoom leve 1.06 por frase
+som=tratado (receita v3): original -26,8 LUFS, abafado (2k/3k -33/-41 dB vs 400 Hz) -> -14,6 LUFS, pico -1,2 dBFS, agudos -14/-20 dB; 16 pufs atenuados 7-11 dB
+visual=legenda branca Carlito 62 acompanhando o queixo, 28 palavras-chave turquesa; título 2 linhas no peito (y 1392) de 0 a 2 s; corte só de "você for as Black aí, ó"
 modelo=minimalista
 origem=Telegram msg 745 (pedido a745)
