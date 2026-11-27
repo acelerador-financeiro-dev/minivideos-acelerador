@@ -1,0 +1,5 @@
+numero=088
+pedido=2026-11-27
+status=editando
+tema=(a definir pela fala)
+origem=Telegram msg 729
