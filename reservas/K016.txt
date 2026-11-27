@@ -1,0 +1,10 @@
+numero=K016
+perfil=@karam.cesar
+pedido=2026-11-27
+status=entregue
+modelo=minimalista
+tema=Repara nisso antes de casar (árvore de Natal, mulher virtuosa), Minimalista só com o título 3 s acima da cabeça, sem legenda
+origem=Telegram msg 253 (pedido k253, áudio 254)
+arquivo=K016_Repara_Nisso_Antes_De_Casar.mp4 (1080x1920, 30 fps, 73,4 s, 61 MB), sem cortes (fala corrida, nenhuma pausa > 0,45 s), sem zoom
+som=bruto -29,9 LUFS e abafado (2 kHz -24 dB, 3 kHz -31 dB vs 400 Hz); canal 1 + highpass 90 + afftdn nr 8 + EQ de presença + exciter + de-esser + compressão; final -14,4 LUFS, pico -1,2 dB, 2 kHz -14 dB, 3 kHz -14,5 dB
+release=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/vK016/K016_Repara_Nisso_Antes_De_Casar.mp4
