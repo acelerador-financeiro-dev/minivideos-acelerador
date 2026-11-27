@@ -1,5 +1,8 @@
 numero=091
 pedido=2026-11-27
 status=editando
-tema=(a definir pela fala) 1ª de 2 variações, junta os vídeos 793 + 794
+tema=Escolha bem a mulher com quem vai casar (árvore de Natal que ela montou; mulher virtuosa; quem cuida do pequeno cuida do grande) - 1ª de 2 variações - modelo Minimalista
+modelo=minimalista
+som=tratado (receita v3): original -28,9 LUFS, abafado (2k/3k -24/-32 dB vs 400 Hz) -> -14,3 LUFS, pico -1,5 dBFS, agudos 2k/3k -8/-12 dB; 7 puf atenuados depois da normalização (-12 dB abaixo de 300 Hz)
+visual=vídeo 793 (árvore) + 794 (fala) juntos; legenda branca Carlito 62 no peito com 29 palavras-chave turquesa; título 2 linhas no peito (y 1360) de 0 a 3,4 s; cortes só nas 2 pausas longas
 origem=Telegram msg 793/794/795 (pedido a793)
