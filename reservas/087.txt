@@ -1,7 +1,7 @@
 numero=087
 pedido=2026-11-27
-status=agendado
-agendado=2026-11-28T11:00 | postador direto (agenda_direta em fila/a716.resultado.json) | César: "ficando pronto só postar" -> próxima faixa vazia (controle-agenda)
+status=entregue
+agendado=SEGURADO em 27/11 19h20 (César, áudio msg 746: "deixa eles sem horário"; antes 2026-11-28T11:00) | postador direto (agenda_direta em fila/a716.resultado.json) | César: "ficando pronto só postar" -> próxima faixa vazia (controle-agenda)
 video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v087/087_Mounjaro_Coisa_De_Perdedor.mp4
 tema=Tomar Mounjaro é coisa de perdedor (perdedor quer tudo rápido; Anvisa apreendeu lotes falsos; vencedor faz o chato que dura) - modelo Imagens
 origem=Telegram msgs 716, 717 e 718 (pedido a716; 3 partes juntadas num vídeo só)

@@ -1,7 +1,7 @@
 numero=088
 pedido=2026-11-27
 status=entregue
-agendado=2026-11-27 19:30 | postador direto (Instagram + YouTube)
+agendado=SEGURADO em 27/11 19h20 (César, áudio msg 746: "deixa eles sem horário"; antes 2026-11-27 19:30) | postador direto (Instagram + YouTube)
 tema=Contabilidade mental (Richard Thaler, Nobel 2017): por que R$ 30 do estacionamento dói mais que R$ 500 do jantar (Motion, 1,2x)
 modelo=motion
 origem=Telegram msg 729
