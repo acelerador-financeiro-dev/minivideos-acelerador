@@ -1,6 +1,8 @@
 numero=091
 pedido=2026-11-27
-status=editando
+status=agendado
+agendado=2026-12-02T07:00 | postador direto (agenda_direta em fila/a793.resultado.json) | César msg 795: 1ª variação na quarta que vem às 7h; a 2ª vai para 09/12 7h
+video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v091/091_Escolha_Bem_A_Mulher.mp4
 tema=Escolha bem a mulher com quem vai casar (árvore de Natal que ela montou; mulher virtuosa; quem cuida do pequeno cuida do grande) - 1ª de 2 variações - modelo Minimalista
 modelo=minimalista
 som=tratado (receita v3): original -28,9 LUFS, abafado (2k/3k -24/-32 dB vs 400 Hz) -> -14,3 LUFS, pico -1,5 dBFS, agudos 2k/3k -8/-12 dB; 7 puf atenuados depois da normalização (-12 dB abaixo de 300 Hz)
