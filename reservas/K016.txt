@@ -1,7 +1,9 @@
 numero=K016
 perfil=@karam.cesar
 pedido=2026-11-27
-status=entregue
+status=agendado
+agendado=2026-11-27 20:08 | postador direto (Instagram Reel de teste + YouTube Karam), pedido 'já sobe' do César
+puf=33,1 e 70,5 s atenuados depois da normalização (medido)
 modelo=minimalista
 tema=Repara nisso antes de casar (árvore de Natal, mulher virtuosa), Minimalista só com o título 3 s acima da cabeça, sem legenda
 origem=Telegram msg 253 (pedido k253, áudio 254)
