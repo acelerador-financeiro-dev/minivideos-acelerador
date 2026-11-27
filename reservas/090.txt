@@ -1,5 +1,9 @@
 numero=090
 pedido=2026-11-27
-status=editando
-tema=(definindo pela fala)
+status=entregue
+video=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/v090/090_Mounjaro_Cliente_Do_Golpe.mp4
+tema=Quem toma Mounjaro é cliente do golpe (2ª variação do Mounjaro, gêmeo do 087: golpista vende pressa; Anvisa e caneta falsa; vencedor faz o chato; Provérbios) - modelo Imagens
+modelo=imagens
+som=tratado (receita v3): original -26,1 LUFS, abafado (2k/3k -29/-35 dB vs 400 Hz) -> -14,7 LUFS, pico -1,4 dBFS, agudos 2k/3k -13/-16 dB; 2 puf (54,2 s e 85,2 s) atenuados depois da normalização, grave na janela caiu >100x
+visual=janela de imagens no topo (61 trocas, whoosh em cada; imagens do 087 + banco), frase de abertura no peito de 0 a 6 s, legenda karaokê no peito; cortes: "dó para a minha, né?" e "Está na Bíblia isso. Provérbios já falavam." (repetido logo depois)
 origem=Telegram msg 758 (pedido a758)
