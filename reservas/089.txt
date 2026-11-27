@@ -1,0 +1,6 @@
+numero=089
+pedido=2026-11-27
+status=editando
+tema=(a definir pela fala) - modelo Minimalista com zoom leve, pedido para as 19h
+modelo=minimalista
+origem=Telegram msg 745 (pedido a745)
