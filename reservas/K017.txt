@@ -1,7 +1,12 @@
 numero=K017
 perfil=@karam.cesar
 pedido=2026-11-27
-status=editando
+status=entregue
 modelo=minimalista
-tema=(a definir pela fala) Minimalista: título 3 s + legenda leve
+tema=Quanto tempo pra fazer R$ 1 milhão do zero (conversa com a Mariana, série R$ 1 milhão), Minimalista: título 3 s + legenda leve branca com palavras-chave turquesa
 origem=Telegram msg 266 (pedido k266, áudio 267)
+arquivo=K017_Quanto_Tempo_Pra_Um_Milhao.mp4 (1080x1920, 30 fps, 168,4 s, 174 MB), cortes só nas pausas > 0,45 s, sem zoom, nenhuma fala cortada
+visual=título 2 linhas y 280-506 de 0 a 3 s; legenda Carlito 62 no peito (y 1440); sobe para y 470 quando o César entra no quadro (53-56, 78-80, 87-92, 112-127, 150-162 s)
+som=bruto -21,6 LUFS, abafado (2 kHz -18, 3 kHz -27 dB vs 400 Hz); receita v3 (limpeza espectral + EQ de presença suavizada + de-esser + compressão); final -14,0 LUFS, pico -1,1 dB, 2 kHz -6, 3 kHz -11 dB; 35 estalos de grave atenuados depois da normalização
+release=https://github.com/acelerador-financeiro-dev/minivideos-acelerador/releases/download/vK017/K017_Quanto_Tempo_Pra_Um_Milhao.mp4
+falta=NÃO agendar; César decide no domingo (cobrança criada pela sessão Conteúdo)
