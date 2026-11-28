@@ -1,0 +1,6 @@
+numero=092
+pedido=2026-11-28
+status=editando
+tema=(em edição) vídeo do Telegram msg 837 - modelo Minimalista
+modelo=minimalista
+origem=Telegram msg 837/838 (pedido a837)
