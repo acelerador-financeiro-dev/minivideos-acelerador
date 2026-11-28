@@ -1,0 +1,7 @@
+numero=K017
+perfil=@karam.cesar
+pedido=2026-11-27
+status=editando
+modelo=minimalista
+tema=(a definir pela fala) Minimalista: título 3 s + legenda leve
+origem=Telegram msg 266 (pedido k266, áudio 267)
